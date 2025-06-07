@@ -3,7 +3,7 @@ import base64
 import os
 
 def resume_page():
-    pdf_file_path = os.path.join("static", "docs", "resume.pdf")
+    pdf_file_path = os.path.join("static", "docs", "Resume.pdf")
 
     if os.path.exists(pdf_file_path):
         with open(pdf_file_path, "rb") as pdf_file:
